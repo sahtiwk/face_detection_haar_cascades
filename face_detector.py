@@ -1,7 +1,7 @@
 import cv2 as cv
 
-image_file = 'input_image.jpg'
-cascade_file = 'haar_face.xml'
+image_file = './input_image.jpeg'
+cascade_file = './haar_face.xml'
 
 img = cv.imread(image_file)
 
